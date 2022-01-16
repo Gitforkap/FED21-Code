@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-
-    <link rel="stylesheet" href="../FED21/style.css">
-
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>PIZZATORG-Home</title>
+    <title>PIZZATORG</title>
     <link rel="icon" type="image/x-icon" href="bild/pizzatorg logo.png">
 </head>
 <body>
@@ -17,11 +15,9 @@
             
             <div class="header-grid">
                 <div class="header-grid-item">
-                    <img src="../FED21/bild/pizzatorg logo.png">
+                    <img src="bild/pizzatorg logo.png">
                 </div>
-                
-                
-                
+                  <!-- header navigation -->
                 <div class="header-grid-item">
                     <nav>
                         <ul>
@@ -29,34 +25,40 @@
                             <li><a href="" class="abc" id="nav-item-a">Kontakta oss</a></li>
                             <li><button class="custom-btn btn-1"><a href="" id="order-btn">Beställ här</a></button></li>
                         </ul>
-
                     </nav>
 
-
+                       <!-- mobile navigation icon-->
                     <div class="mobnav">
                         <h3 id="mobnav-h3"><i class="fas fa-bars"></i></h3>
                     </div>
                 </div>
              </div>
-        
+
+             <!-- mobile navigation -->
+            <div class="mobnav">                
+                <ul id="mobnav-ul">
+                    <li class="mobnav-li"><a href="index.html" class="mobnav-li-a">Hem</a></li>
+                    <li class="mobnav-li"><a href="" class="mobnav-li-a">Kontakta oss</a></li>
+                    <li class="mobnav-li"><a href="" class="mobnav-li-a">Beställ nu</a></li>
+                </ul>
+            </div>
+
+
+
+
+
+
 
 
         </header>
 
+        
         <div class="parallax">
             <h1>PIZZATORG</h1>
             <p><button class="custom-btn btn-1"><a href="">BOKA</a></button></p>
         </div>
 
-
-
-
-
-
-
-
-
-
+           <!-- products -->
         <div class="products">
             <h1>Våra Pizzor</h1>
             
@@ -119,12 +121,12 @@
 
 
         <div class="services">
-            <h1>Varför väja oss?</h1>
+            <h1>Varför välja oss?</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-            <!-- Snabb hemleverens -->
+            
             <div class="service-grid">
-                <!-- fast delivery -->
+               <!-- Snabb hemleverens -->
                 <div class="service-grid-item">
                     <h2>Snabb hemleverens</h2>
                     <img src="bild/Smiley-delivery-man-transparent-PNG.png" alt="">
@@ -134,7 +136,7 @@
                 
                 <!-- Fräsch och goda Pizzor -->
                 <div class="service-grid-item">
-                    <h2>Fräsch och goda Pizzor</h2>
+                    <h2>Fräscha och goda Pizzor</h2>
                     <img src="bild/den 1.png" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi repellat aut sunt expedita quod, modi non quo voluptatem nemo? Distinctio, sed neque deserunt modi quaerat ut. Atque necessitatibus libero eligendi?</p>
                 </div>
@@ -193,49 +195,22 @@
         </footer>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     </div>
 
 
 
+    <script src="header.js"></script>
 
 
-
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.mobnav h3').click(function(){
+				$('.mobnav ul').slideToggle();
+			});
+		});
+	</script>
 
 
 
