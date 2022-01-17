@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PIZZATORG</title>
+    <link rel="icon" type="image/x-icon" href="bild/pizzatorg logo.png">
+</head>
+<body>
+    <div class="container">
+        <header>
+            
+            <div class="header-grid">
+                <div class="header-grid-item">
+                    <img src="bild/pizzatorg logo.png">
+                </div>
+                  <!-- header navigation -->
+                <div class="header-grid-item">
+                    <nav>
+                        <ul>
+                            <li><a href="index.html" class="abc" id="nav-item-a">Hem</a></li>
+                            <li><a href="" class="abc" id="nav-item-a">Kontakta oss</a></li>
+                            <li><button class="custom-btn btn-1"><a href="" id="order-btn">Beställ här</a></button></li>
+                        </ul>
+                    </nav>
+
+                       <!-- mobile navigation icon-->
+                    <div class="mobnav">
+                        <h3 id="mobnav-h3"><i class="fas fa-bars"></i></h3>
+                    </div>
+                </div>
+             </div>
+
+             <!-- mobile navigation -->
+            <div class="mobnav">                
+                <ul id="mobnav-ul">
+                    <li class="mobnav-li"><a href="index.html" class="mobnav-li-a">Hem</a></li>
+                    <li class="mobnav-li"><a href="" class="mobnav-li-a">Kontakta oss</a></li>
+                    <li class="mobnav-li"><a href="" class="mobnav-li-a">Beställ nu</a></li>
+                </ul>
+            </div>
+
+
+
+
+
+
+
+
+        </header>
+
+        
+        <div class="parallax">
+            <h1>PIZZATORG</h1>
+            <p><button class="custom-btn btn-1"><a href="">BOKA</a></button></p>
+        </div>
+
+       
+
+
+        
+
+
+
+         <!-- contact us details -->
+         <div class="grid">
+
+        
+            <!-- map -->
+        
+            <div class="gmap_canvas">
+                <iframe width="800" height="500" id="gmap_canvas" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2162320.2769450652!2d13.573534505690887!3d59.685148811453445!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f763119640bcb%3A0xa80d27d3679d7766!2sStockholm!5e1!3m2!1ssv!2sse!4v1642307038175!5m2!1ssv!2sse" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        
+        
+            
+            <!-- contact us details -->
+            <div class="grid-item contact-info">
+                <h2><i class="fas fa-map-marker-alt"></i> Address</h2>
+                <p>Sverigegatan</p>
+
+                <h2><i class="fas fa-envelope"></i> Email Address</h2>
+                <p>example@gmail.com</p>
+
+                <h2><i class="fas fa-phone"></i> Phone</h2>
+                <p>+0123456789</p>
+            </div>
+        </div>
+    
+
+         
+<hr>
+
+        
+
+
+
+        <footer>
+            <h1>PIZZATORG</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quos eaque quae deleniti ut</p>
+            <img src="../another/bild/pizzatorg logo.png" alt="">
+
+        
+
+
+         <!-- footer grid -->
+         <div class="grid-footer">  
+            <!-- social media links -->
+            <div class="grid-item-footer">                    
+                <div class="social-media">
+                    <p id="follow">följ oss på</p>
+                    <ul>
+                        <li><a href="#"><img src="bild/5365678_fb_facebook_facebook logo_icon.png" alt=""></a></li>
+                        <li><a href="#"><img src="bild/5296516_tweet_twitter_twitter logo_icon.png" alt=""></a></li>
+                        <li><a href="#"><img src="bild/5296503_inspiration_pin_pinned_pinterest_social network_icon.png" alt=""></a></li>
+                        <li><a href="#"><img src="bild/5296520_bubble_chat_mobile_whatsapp_whatsapp logo_icon.png" alt=""></a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- copyright mark -->
+            <div class="grid-item-footer">
+                <p id="copyright">Copyright © PIZZATORG 2022</p>
+            </div>
+        </div>      
+    </footer>
+
+</div>
+
+
+
+<script src="header.js"></script>
+
+
+    <!-- jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.mobnav h3').click(function(){
+				$('.mobnav ul').slideToggle();
+			});
+		});
+	</script>
+
+
+
+
+
+
+
+    </body>
+    </html>

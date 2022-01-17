@@ -227,21 +227,21 @@
         margin: 1em auto;
     }
     hr{
-        width: 80%;
-        margin: 0.2em auto;
+        width: 90%;
+        margin: 2em auto;
         border: #000 1px solid;
         background-color: #000;
     }
     .grid-item{
         /* border: 1px solid black; */
         text-align: center;
-        padding: 1em;
         margin: auto;
     }
     
     .grid-item p{
         text-align: left;
         color: #000;
+        text-align: center;
     }
     .grid-item img{
         width: 35em;
@@ -274,7 +274,7 @@
      /* map */
     .gmap_canvas iframe{
         margin: 2em auto;
-        width: 90%;
+        
     }
 
 
