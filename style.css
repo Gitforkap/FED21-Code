@@ -303,11 +303,6 @@
 
 
 
-
-
-
-
-
     /* kund-speech */
 .kund-speech{
     /* The image used */
@@ -339,12 +334,6 @@
     text-align: center;
     /* border-radius: 100px 0 100px 0; */
 }
-
-
-
-
-
-
 
 
 /* footer */
@@ -407,11 +396,13 @@ footer img{
     text-align: left;
     color: #fff;
 }
+  
+ 
 
 
-    
+
 /* responsive */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px){
     .container { 
         width: 100%; 
     }
@@ -448,6 +439,7 @@ footer img{
     .grid{
         display: block;
         width: 100%;
+        order: 3;
     }
     .grid-item{
         text-align: center;
@@ -461,7 +453,9 @@ footer img{
     }
     
 
-
+    hr{
+        order: 4;
+    }
 
     .services{
         width: 100%;
