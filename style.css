@@ -220,11 +220,12 @@
 
 /* grid */
     .grid{
-        width: 90%;
+        width: 100%;
         display: grid;
         grid-template-columns: 50% 50%;
         /* border: 1px solid black; */
         margin: 1em auto;
+        margin-left: 10px;
     }
     hr{
         width: 90%;
