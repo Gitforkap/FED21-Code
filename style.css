@@ -220,12 +220,12 @@
 
 /* grid */
     .grid{
-        width: 100%;
+        width: 90%;
         display: grid;
         grid-template-columns: 50% 50%;
         /* border: 1px solid black; */
         margin: 1em auto;
-        margin-left: 10px;
+        
     }
     hr{
         width: 90%;
@@ -274,9 +274,8 @@
 
      /* map */
     .gmap_canvas iframe{
-        margin: 2em auto;
-        
-    }
+        margin: auto;
+     }
 
 
     .services {
